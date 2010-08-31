@@ -1,22 +1,82 @@
+/*
+ *  Designed by Amber Feng
+ */
+
 * {
 	font-family: Georgia,Times,serif;
 }
+
+html{
+	margin: auto;
+}
+
+body {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f0f0f0));
+	background: -moz-linear-gradient(19% 75% 90deg,#F0f0f0, #ffffff);
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #86A9C4;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
 div#left {
 	float: left;
+	padding: 1em;
+	border-right: 1px solid #ccc;
+	height: 400px;
+}
+
+div#left li{
+	 list-style: none;
+}
+
+div#left li a{
+	 text-decoration: none;
+	 padding: 5px;
+	 line-height: 2em;
+	 -webkit-border-radius: 10px;
+	 -moz-border-radius: 10px;
+	 background: #eee;
+	 color: #999;
+}
+
+div#left li a:hover{
+	 background: #86A9C4;
+	 color: white;
 }
 div#right {
-	float: right;
+	padding: 1em;
+	float: left;
 }
-div#main {
-	clear: both;
+
+div#right img{
+	padding: 4px;
+	background: white;
+	border: 1px solid #ccc;
+}
+
+div#main{
+	padding-top: 1em;
 }
 div#top {
-	clear: both;
-	color: gold;
+	color: white;
+	text-shadow: #67809C 0px -2px 0px;
+	background: #86a9c4;
+	border-bottom: 5px solid white;
+	padding: 1em;
 }
 div#top h1 {
 	float: right;
 }
 div#top img {
 	float: left;
+}
+div.clear{
+	clear:both;
 }
