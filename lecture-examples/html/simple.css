@@ -1,0 +1,22 @@
+* {
+	font-family: Georgia,Times,serif;
+}
+div#left {
+	float: left;
+}
+div#right {
+	float: right;
+}
+div#main {
+	clear: both;
+}
+div#top {
+	clear: both;
+	color: gold;
+}
+div#top h1 {
+	float: right;
+}
+div#top img {
+	float: left;
+}

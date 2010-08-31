@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <title>Armando's Simple Page</title>
+  </head>
+
+  <body>
+    
+    <div id="topbar">
+      <p>
+        Armando's Simple Example
+        <img src="http://lh5.ggpht.com/_NmWtVR1-VuY/THx7TuAyv8I/AAAAAAAABZQ/mNCGEXosJcw/s288/IMG_0874.jpg" />
+      </p>
+    </div>
+
+    <div id="left" class="content">
+      <ul>
+        <li> 
+          <a href="http://www.armandofox.com/geek">Armando's Work Page</a> 
+        </li>
+        <li>
+          <a href="http://www.armandofox.com">Armando's Music page</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="right" class="content">
+      <p>
+        I'm Armando.  I teach CS169 and do research in the 
+        RAD Lab and Par Lab.
+      </p>
+
+      <p> 
+        I also work with a <a href="http://www.altarena.org">local community theater</a>.
+      </p>
+
+      <p>
+        This is me with my pet toucan.
+        <img src="http://lh6.ggpht.com/_NmWtVR1-VuY/Swh-HsX_HTI/AAAAAAAABN8/v27y-ZXKy50/s400/IMG_7667.JPG" />
+      </p>
+    </div>
+
+  </body>
+</html>
