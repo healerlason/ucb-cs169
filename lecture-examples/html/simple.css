@@ -11,14 +11,13 @@ html{
 }
 
 body {
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f0f0f0));
-	background: -moz-linear-gradient(19% 75% 90deg,#F0f0f0, #ffffff);
 	margin: auto;
+        background-color: #eee;
 }
 
 a{
 	text-decoration: none;
-	color: BLUE;
+	color: blue;
 }
 
 a:hover{
@@ -28,8 +27,12 @@ a:hover{
 div#left {
 	float: left;
 	padding: 1em;
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #666;
 	height: 400px;
+}
+
+div#left ul {
+        margin-right: 10px;
 }
 
 div#left li{
@@ -39,11 +42,15 @@ div#left li{
 div#left li a{
 	 text-decoration: none;
 	 padding: 5px;
+         margin: 5px;
 	 line-height: 2em;
 	 -webkit-border-radius: 10px;
 	 -moz-border-radius: 10px;
 	 background: #ccc;
 	 color: #333;
+         width: 100%;
+         display: block;
+         text-align: center;
 }
 
 div#left li a:hover{
