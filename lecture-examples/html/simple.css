@@ -18,7 +18,7 @@ body {
 
 a{
 	text-decoration: none;
-	color: #86A9C4;
+	color: BLUE;
 }
 
 a:hover{
@@ -42,12 +42,12 @@ div#left li a{
 	 line-height: 2em;
 	 -webkit-border-radius: 10px;
 	 -moz-border-radius: 10px;
-	 background: #eee;
-	 color: #999;
+	 background: #ccc;
+	 color: #333;
 }
 
 div#left li a:hover{
-	 background: #86A9C4;
+	 background: BLUE;
 	 color: white;
 }
 div#right {
@@ -67,7 +67,7 @@ div#main{
 div#top {
 	color: white;
 	text-shadow: #67809C 0px -2px 0px;
-	background: #86a9c4;
+	background: blue;
 	border-bottom: 5px solid white;
 	padding: 1em;
 }

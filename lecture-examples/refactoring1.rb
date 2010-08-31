@@ -19,7 +19,7 @@ end
 # Problems:
 #  - what we really want is once per login - this doesn't do that
 #  - exposes implementation details of how we compute whether customer
-#       needs to see this message
+#       needs to see this message (ie of what "opted out of email" means)
 #  - mixes levels of abstraction
 #  - how do we know what flash[:notice] was coming in?  if it was non-nil,
 #       this will never do anything - yet now requires us to know this
